@@ -75,6 +75,9 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding: 0 15vw;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .fa-bars{
@@ -131,7 +134,7 @@ header{
 
 .div-slider{
     height: 14vw;
-    background-image: url(../img/banner-vote.jpg);
+    background-image: url(../img/banners/banner-vote.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
